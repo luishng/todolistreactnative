@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json"
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react-native": " ",
     "react-native-elements": "^0.19.1",
+    "react-native-sqlite-storage": "^3.3.6",
     "react-native-swipeout": "^2.3.4",
     "react-native-vector-icons": "^5.0.0"
   },
@@ -21,8 +21,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "scripts": {
-    "postinstall": "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json"
   }
 }

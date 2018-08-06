@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { CheckBox, Header } from 'react-native-elements'
 import Swipeout from 'react-native-swipeout';
+import SQLite from 'react-native-sqlite-storage';
 
 import styles from './styles';
 
