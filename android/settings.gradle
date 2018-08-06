@@ -1,0 +1,3 @@
+rootProject.name = 'todolistreactnative'
+
+include ':app'
